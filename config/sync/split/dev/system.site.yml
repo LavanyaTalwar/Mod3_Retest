@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: 303758c0-ad4b-46a9-b722-281491cd2249
+name: 'Innoraft Employee Management Portal'
+mail: talwarlavanya2002@gmail.com
+slogan: ''
+page:
+  403: /node/2
+  404: /node/1
+  front: /node/3
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null
