@@ -4,12 +4,14 @@ status: true
 dependencies:
   config:
     - field.field.node.news.body
-    - field.field.node.news.field_banner
+    - field.field.node.news.field_banner_image
     - field.field.node.news.field_news_category
     - field.field.node.news.field_news_image
     - field.field.node.news.field_summary
+    - image.style.banner_img_style_800_400
     - node.type.news
   module:
+    - image
     - text
     - user
 id: node.news.default
@@ -24,12 +26,14 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
-  field_banner:
-    type: entity_reference_entity_view
+  field_banner_image:
+    type: image
     label: hidden
     settings:
-      view_mode: default
-      link: true
+      image_link: ''
+      image_style: banner_img_style_800_400
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: 0
     region: content

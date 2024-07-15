@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.article
     - node.type.news
     - node.type.page
     - taxonomy.vocabulary.tags
@@ -33,7 +32,6 @@ permissions:
   - 'create terms in tags'
   - 'create url aliases'
   - 'delete any news content'
-  - 'delete article revisions'
   - 'delete own files'
   - 'delete own news content'
   - 'delete page revisions'

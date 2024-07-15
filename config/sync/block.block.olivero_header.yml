@@ -17,7 +17,7 @@ plugin: 'system_menu_block:header'
 settings:
   id: 'system_menu_block:header'
   label: 'Random 4 categories'
-  label_display: visible
+  label_display: '0'
   provider: system
   level: 1
   depth: 0
