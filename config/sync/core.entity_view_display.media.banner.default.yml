@@ -1,0 +1,31 @@
+uuid: 04869f5d-b5a1-4079-84a7-b10899b71119
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.banner.field_media_image_1
+    - image.style.banner_img_style_800_400
+    - media.type.banner
+  module:
+    - image
+id: media.banner.default
+targetEntityType: media
+bundle: banner
+mode: default
+content:
+  field_media_image_1:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: banner_img_style_800_400
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

@@ -1,0 +1,45 @@
+uuid: d1ea340e-27a2-488b-a062-87c0eb0f519a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.news
+    - node.type.page
+    - taxonomy.vocabulary.tags
+  module:
+    - comment
+    - contextual
+    - file
+    - node
+    - path
+    - system
+    - taxonomy
+    - toolbar
+_core:
+  default_config_hash: e_wG1u7SrGaJbY2-Szgbgl-c8T3kdirU3uTNq2c_QJQ
+id: content_editor
+label: 'Content editor'
+weight: 2
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access toolbar'
+  - 'administer url aliases'
+  - 'create news content'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'delete any news content'
+  - 'delete own files'
+  - 'delete own news content'
+  - 'delete page revisions'
+  - 'edit any news content'
+  - 'edit own comments'
+  - 'edit own news content'
+  - 'edit terms in tags'
+  - 'revert all revisions'
+  - 'view all revisions'
+  - 'view own unpublished content'
+  - 'view the administration theme'

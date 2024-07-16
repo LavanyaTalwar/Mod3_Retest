@@ -1,0 +1,14 @@
+uuid: 14300b96-4b0c-4f07-9773-326b4ff31151
+langcode: en
+status: true
+dependencies: {  }
+name: banner_img_style_800_400
+label: 'banner img style 800/400'
+effects:
+  dec1f35e-27a2-42cb-9496-1adff25d1599:
+    uuid: dec1f35e-27a2-42cb-9496-1adff25d1599
+    id: image_resize
+    weight: 1
+    data:
+      width: 800
+      height: 400

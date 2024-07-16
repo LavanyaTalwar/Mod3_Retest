@@ -1,0 +1,29 @@
+uuid: 69c89e10-a632-4aae-aa8a-40e40a86a1e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.header
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_header
+theme: olivero
+region: header
+weight: -9
+provider: null
+plugin: 'system_menu_block:header'
+settings:
+  id: 'system_menu_block:header'
+  label: 'Random 4 categories'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home
